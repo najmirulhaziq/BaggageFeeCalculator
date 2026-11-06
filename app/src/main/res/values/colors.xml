@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_light_primary">#EC6800</color>
+    <color name="my_light_secondary">#ED8701</color>
+    <color name="accent_color">#FF009688</color>
+
+    <!-- Toolbar icons and titles (light mode) -->
+    <color name="toolbar_content">#FFFFFFFF</color>
+    <!-- Overflow menu text (light mode) -->
+    <color name="popup_text">#DE000000</color>
+
+    <!-- Reset button -->
+    <color name="reset_red">#FFD32F2F</color>
+</resources>

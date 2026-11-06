@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Toolbar icons and titles (dark mode): black on the light purple toolbar -->
+    <color name="toolbar_content">#FF000000</color>
+    <!-- Overflow menu text (dark mode): white -->
+    <color name="popup_text">#FFFFFFFF</color>
+</resources>

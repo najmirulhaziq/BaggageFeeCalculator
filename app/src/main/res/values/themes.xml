@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Assign1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimaryDark">@color/my_light_primary</item>
+        <item name="colorPrimary">@color/my_light_secondary</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.Assign1" parent="Base.Theme.Assign1" />
+
+    <!-- Makes a ShapeableImageView circular -->
+    <style name="CircleImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Toolbar icons/titles: white in light mode, black in dark mode (see colors) -->
+    <style name="ThemeOverlay.Assign1.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlNormal">@color/toolbar_content</item>
+        <item name="android:textColorPrimary">@color/toolbar_content</item>
+        <item name="android:textColorSecondary">@color/toolbar_content</item>
+    </style>
+
+    <!-- Overflow menu (About / Settings): dark text in light mode, white in dark mode -->
+    <style name="ThemeOverlay.Assign1.Popup" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/popup_text</item>
+    </style>
+</resources>
